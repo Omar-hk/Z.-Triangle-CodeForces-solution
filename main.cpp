@@ -15,7 +15,7 @@ void fast()
 
 bool triangle(int x1 , int y1, int x2, int y2, int x3, int y3)
 {
-    if ((x1 == x2 && y1==y2) || (x1==x3 && y1==y3) || (x2==x3 && y2==y3)) //Check if angels are equle or not
+    if ((x1 == x2 && y1==y2) || (x1==x3 && y1==y3) || (x2==x3 && y2==y3)) //Check if angels are equal or not
     
     
     return false;
